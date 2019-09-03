@@ -3,7 +3,7 @@ a=np.array([1,2,3])
 b=np.array([(1,2,3),(4,5,6)])
 c=np.array([(1,2,3),(4,5,6),(6,7,8)])
 d=np.array([(2,1,1),(3,2,2),(5,6,7)])
-#print(c[0:2,1])
+
 print("a ",a)
 print("b",b)
 print("dimension",a.ndim)
