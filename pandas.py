@@ -8,10 +8,10 @@ import numpy as np
 #a=np.array([(1,2,3),(4,5,6),(7,8,9)])
 #print(a[0:2,2])
 #for row in a.flat:
-    #print(row)
+    #print("rows is:",row)
 b=np.arange(20).reshape(5,4)
 c=np.arange(6,12).reshape(3,2)
-#x=np.hstack((b,c))
+
 w=b>6
 p=b[w]=-1
 print(b)
