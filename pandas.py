@@ -9,11 +9,11 @@ import numpy as np
 #print(a[0:2,2])
 #for row in a.flat:
     #print("rows is:",row)
-b=np.arange(20).reshape(5,4)
+b=np.arange(10).reshape(5,2)
 c=np.arange(6,12).reshape(3,2)
 
 w=b>6
 p=b[w]=-1
 print(b)
-#y=np.hsplit(b,4)
-#print(y[0])
+y=np.hsplit(b,4)
+print(y[0])
