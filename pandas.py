@@ -5,12 +5,12 @@ l=range(1000)
 print(sys.getsizeof(5)*len(l))
 array=np.arange(1000)
 print(array.size*array.itemsize)
-a=np.array([(1,2,3),(4,5,6),(7,8,9)])
+a=np.array([(1,2,0),(4,7,6),(7,8,9)])
 print(a[0:2,2])
 for row in a.flat:
     print("rows is:",row)
-b=np.arange(10).reshape(5,2)
-c=np.arange(6,12).reshape(3,2)
+b=np.arange(10).reshape(2,5)
+c=np.arange(6,12).reshape(2,3)
 
 w=b>6
 p=b[w]=-1
